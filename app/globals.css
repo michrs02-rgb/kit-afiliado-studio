@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-shopee: #ee4d2d;
+  --color-shopee-hover: #d73211;
+  --color-dark-slate: #0f172a;
+}
+
+/* Mobile-first touch feel & remove blue highlight */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* PWA Standalone Notch Safe Areas */
+@supports (padding-top: env(safe-area-inset-top)) {
+  header {
+    padding-top: calc(0.75rem + env(safe-area-inset-top));
+  }
+}

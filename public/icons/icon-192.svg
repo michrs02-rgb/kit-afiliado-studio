@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="192" height="192">
+  <defs>
+    <linearGradient id="shopeeGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b3d" />
+      <stop offset="100%" stop-color="#ee4d2d" />
+    </linearGradient>
+    <linearGradient id="bgGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad192)" />
+  <path d="M140 180 L160 410 C162 426 176 438 192 438 L320 438 C336 438 350 426 352 410 L372 180 Z" fill="url(#shopeeGrad192)" />
+  <path d="M200 180 V135 C200 105 225 80 256 80 C287 80 312 105 312 135 V180" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" />
+  <circle cx="256" cy="300" r="54" fill="#0f172a" opacity="0.85" />
+  <polygon points="244,276 278,300 244,324" fill="#ff7a45" />
+</svg>
